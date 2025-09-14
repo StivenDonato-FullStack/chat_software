@@ -1,11 +1,6 @@
 
 # 🚀 Proyecto: Full Stack Realtime Chat Messaging App
 
-Este documento resume los puntos clave del tutorial **"Build and Deploy
-a Full Stack Realtime Chat Messaging App with Authentication & SMS
-Notifications"**.\
-El objetivo es construir y desplegar una aplicación de chat **moderna,
-escalable y atractiva** con funcionalidades avanzadas.
 
 ------------------------------------------------------------------------
 
