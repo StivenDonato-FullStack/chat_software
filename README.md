@@ -62,8 +62,8 @@ Se logró un flujo completo: signup ➝ login ➝ conexión al chat ➝ mensajer
 
 👨‍💻 Autor: Stiven Donato – Full Stack Developer
 
-💼 LinkedIn
+💼 LinkedIn: www.linkedin.com/in/huber-stiven-donato-bohorquez
 
-🐙 GitHub
+🐙 GitHub: StivenDonato-FullStack
 
 📧 Email: huberdonato22@gmail.com
