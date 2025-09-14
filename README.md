@@ -1,9 +1,3 @@
----
-author: Stiven Donato
-date: "`r Sys.Date()`"
-output: html_document
-title: Resumen Profesional - Full Stack Chat App
----
 
 # 🚀 Proyecto: Full Stack Realtime Chat Messaging App
 
