@@ -1,41 +1,45 @@
-# 💬 Full Stack Chat App con React + Node.js + Stream Chat
+# 💬 Proyecto Full Stack Chat App – Caso de Estudio Profesional
 
-![Banner](https://user-images.githubusercontent.com/placeholder/banner-chat.png)
+## 📌 Introducción
 
-Aplicación **de mensajería en tiempo real** que integra **frontend en React** y **backend en Node.js/Express** con la API de **Stream Chat**.  
-Incluye registro de usuarios, login seguro con contraseñas encriptadas, persistencia con cookies, y un sistema de canales en vivo similar a Slack o Discord.  
+Este proyecto fue desarrollado como un **ejercicio práctico de integración full stack**, con el objetivo de construir una aplicación de chat en tiempo real utilizando **React en el frontend**, **Node.js/Express en el backend** y la API de **Stream Chat**.  
 
-✨ **Lo más cool**: notificaciones en vivo, conexión instantánea con usuarios y un diseño moderno gracias a `stream-chat-react`.
-
----
-
-## 📑 Tabla de Contenidos
-
-1. [🚀 Tecnologías](#-tecnologías)
-2. [📂 Estructura](#-estructura-del-proyecto)
-3. [⚙️ Configuración](#️-configuración)
-4. [▶️ Ejecución](#️-ejecución-en-desarrollo)
-5. [🔑 Flujo de Autenticación](#-flujo-de-autenticación)
-6. [🐞 Problemas Comunes Resueltos](#-problemas-comunes-resueltos)
-7. [🎬 Vista Previa en Acción](#-vista-previa-en-acción)
-8. [👨‍💻 Autor](#-autor)
+El proceso me permitió trabajar en:
+- Configuración de servidor y cliente.
+- Manejo de autenticación con cookies y tokens.
+- Creación de usuarios y login con contraseñas seguras (bcrypt).
+- Corrección de errores comunes en proyectos reales (mismatch de tokens, problemas de importación, ESLint, etc.).
+- Buenas prácticas de documentación y despliegue.
 
 ---
 
-## 🚀 Tecnologías
+## 🎯 Objetivos del Proyecto
+
+- Implementar un **chat en tiempo real** con canales y mensajes instantáneos.  
+- Crear un **backend seguro** con registro e inicio de sesión.  
+- Integrar la librería **stream-chat-react** para aprovechar componentes listos y responsivos.  
+- Resolver errores de compatibilidad, imports y autenticación.  
+- Documentar todo el proceso como parte de mi portafolio.
+
+---
+
+## 🛠️ Desarrollo y Aprendizajes
 
 ### 🔧 Backend
-- Node.js + Express ⚡
-- `stream-chat` (SDK server)
-- `bcrypt` para encriptar contraseñas
-- `crypto` para generar IDs únicos
-- `dotenv` para manejar variables de entorno
+- Configuración de **Express** para exponer endpoints `/auth/signup` y `/auth/login`.
+- Uso de **bcrypt** para hashear contraseñas antes de guardarlas en Stream Chat.
+- Generación de IDs únicos con **crypto**.
+- Integración con **Stream Chat Server SDK**:
+  - Creación de tokens con `createToken(userId)`.
+  - Creación y consulta de usuarios con `upsertUser` y `queryUsers`.
 
-### 🎨 Frontend
-- React 18 ⚛️
-- `stream-chat-react` (componentes preconstruidos)
-- `universal-cookie` 🍪 para manejo de sesiones
-- `axios` para peticiones HTTP
-- Estilos importados:  
+### ⚛️ Frontend
+- Creación de aplicación con **React**.
+- Manejo de sesiones con **universal-cookie** (guardar token, userId, username).
+- Integración de `stream-chat-react` para renderizar:
+  - Lista de canales.
+  - Contenedor de chat.
+  - Autenticación personalizada.
+- Importación de estilos modernos con:
   ```js
   import 'stream-chat-react/css/v2/index.css';
