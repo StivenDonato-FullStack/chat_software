@@ -33,6 +33,8 @@ El proceso me permitió trabajar en:
   - Creación de tokens con `createToken(userId)`.
   - Creación y consulta de usuarios con `upsertUser` y `queryUsers`.
 
+ ---
+
 ### ⚛️ Frontend
 - Creación de aplicación con **React**.
 - Manejo de sesiones con **universal-cookie** (guardar token, userId, username).
@@ -43,3 +45,23 @@ El proceso me permitió trabajar en:
 - Importación de estilos modernos con:
   ```js
   import 'stream-chat-react/css/v2/index.css';
+
+  ---
+
+📈 Conclusiones
+
+El proyecto me permitió reforzar conceptos clave de autenticación, manejo de sesiones y integración de librerías externas.
+
+Aprendí a leer logs de error, interpretar warnings de ESLint y a aplicar buenas prácticas en naming y consistencia de datos.
+
+Se logró un flujo completo: signup ➝ login ➝ conexión al chat ➝ mensajería en vivo.
+
+🌐 Conéctate conmigo
+
+👨‍💻 Autor: Stiven Donato – Full Stack Developer
+
+💼 LinkedIn
+
+🐙 GitHub
+
+📧 Email: stiven.donato@example.com
