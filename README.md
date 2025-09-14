@@ -1,8 +1,8 @@
-# 💬 Proyecto Full Stack Chat App – Caso de Estudio Profesional
+# 💬 Proyecto Full Stack Chat App – 
 
 ## 📌 Introducción
 
-Este proyecto fue desarrollado como un **ejercicio práctico de integración full stack**, con el objetivo de construir una aplicación de chat en tiempo real utilizando **React en el frontend**, **Node.js/Express en el backend** y la API de **Stream Chat**.  
+Este proyecto fue desarrollado ccon el objetivo de construir una aplicación de chat en tiempo real utilizando **React en el frontend**, **Node.js/Express en el backend** y la API de **Stream Chat**.  
 
 El proceso me permitió trabajar en:
 - Configuración de servidor y cliente.
