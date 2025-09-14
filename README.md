@@ -56,6 +56,8 @@ Aprendí a leer logs de error, interpretar warnings de ESLint y a aplicar buenas
 
 Se logró un flujo completo: signup ➝ login ➝ conexión al chat ➝ mensajería en vivo.
 
+---
+
 🌐 Conéctate conmigo
 
 👨‍💻 Autor: Stiven Donato – Full Stack Developer
@@ -64,4 +66,4 @@ Se logró un flujo completo: signup ➝ login ➝ conexión al chat ➝ mensajer
 
 🐙 GitHub
 
-📧 Email: stiven.donato@example.com
+📧 Email: huberdonato22@gmail.com
